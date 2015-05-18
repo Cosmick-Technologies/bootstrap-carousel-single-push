@@ -1,0 +1,7 @@
+.carousel.single-push .carousel-inner > .next {
+  left: 33.33%;
+}
+
+.carousel.single-push .carousel-inner > .prev {
+  left: -33.33%;
+}

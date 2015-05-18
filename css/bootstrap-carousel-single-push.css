@@ -1,0 +1,24 @@
+@media all and (transform-3d), (-webkit-transform-3d) {
+  .carousel.single-push .carousel-inner > .item.next,
+  .carousel.single-push .carousel-inner > .item.active.right {
+    -webkit-transform: translate3d(33.33%, 0, 0);
+            transform: translate3d(33.33%, 0, 0);
+  }
+
+  .carousel.single-push .carousel-inner > .item.prev,
+  .carousel.single-push .carousel-inner > .item.active.left {
+    -webkit-transform: translate3d(-33.33%, 0, 0);
+            transform: translate3d(-33.33%, 0, 0);
+  }
+}
+
+.carousel.single-push .carousel-inner > .item.active.left > div:nth-child(2), .carousel.single-push .carousel-inner > .item.active.left > div:nth-child(3) {
+    display: none;
+}
+
+.ie .carousel.single-push .carousel-inner > .next {
+  left: 33.33%;
+}
+.ie .carousel.single-push .carousel-inner > .prev {
+  left: -33.33%;
+}

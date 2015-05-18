@@ -5,13 +5,14 @@ This is a working example of a single-push Bootstrap slider for v3.3.4 which wil
 ## Installation
 
 Don't forget to add this conditional IE statement to the \<head\>
-```html
+```
 <!--[if IE]>
   <link rel="stylesheet" type="text/css" href="css/bootstrap-carousel-single-push.ie.min.css" />
 <![endif]-->
 ```
 ## Suggested Usage
-```html
+Taken directly from Bootstrap's carousel documentation (http://getbootstrap.com/javascript/#carousel-examples)
+```
 <div id="carousel-example-generic" class="carousel slide single-push" data-ride="carousel">
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
